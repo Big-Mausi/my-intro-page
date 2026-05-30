@@ -5,12 +5,12 @@ import avatar from "@/assets/avatar.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
-    meta: [
-      { title: "Alex Carter — Frontend Developer" },
-      { name: "description", content: "Personal intro of Alex Carter, a frontend developer crafting expressive, accessible web interfaces." },
-      { property: "og:title", content: "Alex Carter — Frontend Developer" },
-      { property: "og:description", content: "Personal intro of Alex Carter, a frontend developer crafting expressive, accessible web interfaces." },
-    ],
+      meta: [
+        { title: "Habeebat Yusuf — Frontend Developer" },
+        { name: "description", content: "Personal intro of Habeebat Yusuf, a frontend developer crafting expressive, accessible web interfaces." },
+        { property: "og:title", content: "Habeebat Yusuf — Frontend Developer" },
+        { property: "og:description", content: "Personal intro of Habeebat Yusuf, a frontend developer crafting expressive, accessible web interfaces." },
+      ],
   }),
   component: Index,
 });
@@ -39,9 +39,9 @@ function Index() {
             </div>
 
             <div className="space-y-4">
-              <h1 className="text-5xl font-semibold tracking-tight md:text-7xl">
-                Alex <span className="italic" style={{ backgroundImage: "var(--gradient-accent)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>Carter</span>
-              </h1>
+            <h1 className="text-5xl font-semibold tracking-tight md:text-7xl">
+              Habeebat <span className="italic" style={{ backgroundImage: "var(--gradient-accent)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>Yusuf</span>
+            </h1>
               <p className="text-lg font-medium text-muted-foreground md:text-xl">
                 Frontend developer crafting expressive, accessible interfaces.
               </p>
@@ -69,7 +69,7 @@ function Index() {
             <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card" style={{ boxShadow: "var(--shadow-soft)" }}>
               <img
                 src={avatar}
-                alt="Portrait of Alex Carter"
+                alt="Portrait of Habeebat Yusuf"
                 width={768}
                 height={768}
                 className="aspect-square w-full object-cover"
